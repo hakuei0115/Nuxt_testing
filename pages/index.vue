@@ -1,16 +1,31 @@
-<script setup lang="ts">
-  const route = useRoute()
+<script setup>
+definePageMeta({
+        layout: false
+    })
 </script>
 
 <template>
-  <h1>Page: index</h1>
-  <p class="title">目前路由的路徑: route.fullPath為 : {{ route.fullPath }}</p>
-  <button type="button" class="btn btn-primary">Primary</button>
-  <button type="button" class="btn btn-secondary">Secondary</button>
-  <button type="button" class="btn btn-success">Success</button>
-  <button type="button" class="btn btn-danger">Danger</button>
-  <button type="button" class="btn btn-warning">Warning</button>
-  <button type="button" class="btn btn-info">Info</button>
-  <button type="button" class="btn btn-light">Light</button>
-  <button type="button" class="btn btn-dark">Dark</button>
+  <header>
+    <ul class="list">
+      <li>
+        <NuxtLink to="/">首頁</NuxtLink>
+      </li>
+      <li>
+        <NuxtLink to="/Day2">作業二</NuxtLink>
+      </li>
+      <li>
+        <NuxtLink to="/Day3">作業三</NuxtLink>
+      </li>
+    </ul>
+  </header>
+  <h1>
+    前台首頁
+  </h1>
+  <footer>
+    <h5>
+      前台模板的表尾
+    </h5>
+  </footer>
 </template>
+
+<style scoped></style>
