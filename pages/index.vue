@@ -19,6 +19,9 @@ definePageMeta({
       <li>
         <NuxtLink to="/Day4">作業四</NuxtLink>
       </li>
+      <li>
+        <NuxtLink to="/Day5">作業五</NuxtLink>
+      </li>
     </ul>
   </header>
   <h1>
