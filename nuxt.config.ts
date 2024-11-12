@@ -4,5 +4,11 @@ export default defineNuxtConfig({
   css: [
     '@/assets/stylesheets/all.scss', 
   ],
+  router: {
+    options: {
+      linkActiveClass: "active",
+      linkExactActiveClass: "active",
+    },
+  },
   devtools: { enabled: true }
 })

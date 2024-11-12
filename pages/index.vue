@@ -1,5 +1,5 @@
 <script setup>
-definePageMeta({
+    definePageMeta({
         layout: false
     })
 </script>
@@ -21,6 +21,9 @@ definePageMeta({
       </li>
       <li>
         <NuxtLink to="/Day5">作業五</NuxtLink>
+      </li>
+      <li>
+        <NuxtLink to="/Day6">作業六</NuxtLink>
       </li>
     </ul>
   </header>
