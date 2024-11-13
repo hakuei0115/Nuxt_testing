@@ -25,6 +25,12 @@
       <li>
         <NuxtLink to="/Day6">作業六</NuxtLink>
       </li>
+      <li>
+        <NuxtLink to="/Day7">作業七</NuxtLink>
+      </li>
+      <li>
+        <NuxtLink to="/Day8">作業八</NuxtLink>
+      </li>
     </ul>
   </header>
   <h1>
