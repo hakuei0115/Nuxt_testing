@@ -1,75 +1,76 @@
-# Nuxt Minimal Starter
+# Nuxt3 學習直播班專案
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+本專案為 Nuxt3 學習直播班的課程內容，旨在透過實作專案的方式，引導參與者了解 Nuxt3 的核心概念與開發技巧。透過本專案，將學習如何建立 Nuxt3 應用程式、管理路由、組織資料、與後端 API 串接等，能夠快速上手並應用於實際的開發中。
 
-## Setup
+## 專案介紹
 
-Make sure to install dependencies:
+這份專案包含多個練習，涵蓋了 Nuxt3 的各種功能模組，並透過案例展示如何使用 Nuxt3 開發 SPA 和 SSR 應用程式。本專案的結構清晰，並對關鍵步驟進行詳細說明，適合初學者以及有 Vue 基礎的開發者深入學習。
 
-```bash
-# npm
-npm install
+## 如何使用
 
-# pnpm
-pnpm install
+- Clone 專案
+  - ``` git clone https://github.com/hakuei0115/Nuxt_testing ```
+  - ``` cd Nuxt_testing ```
+- 安裝依賴套件
+  -  ``` npm install ```
+-  啟動本地開發伺服器
+   -  ``` num run dev ```
 
-# yarn
-yarn install
+## 專案結構
 
-# bun
-bun install
+```plaintext
+├── assets/         # 靜態資源，例如圖片、CSS 等
+├── components/     # Vue 元件
+├── composables/    # 可重複使用的邏輯功能
+├── layouts/        # 頁面共用的佈局
+├── pages/          # 頁面組件，對應自動生成的路由
+├── plugins/        # 外部插件的初始化
+├── public/         # 靜態檔案
+├── nuxt.config.ts  # Nuxt 設定檔
+└── README.md       # 專案說明文件
 ```
 
-## Development Server
+## 主要學習內容
 
-Start the development server on `http://localhost:3000`:
+### Day 8 動態路由與 404 錯誤頁面處理 (11/13 完成)
 
-```bash
-# npm
-npm run dev
+- 學習建立並使用動態路由
+- 學習如何配置 404 錯誤頁面
 
-# pnpm
-pnpm dev
+### Day 7 嵌套式路由、 useRouter & useRoute (11/13 完成)
 
-# yarn
-yarn dev
+- 學習建立並使用嵌套式路由
+- 學習在 Nuxt3 使用 useRouter 和 useRoute
 
-# bun
-bun run dev
-```
+### Day 6 NuxtLink 與 路由基礎配置 (11/12 完成)
 
-## Production
+- 學習使用 NuxtLink 實作頁面導航
+- 學習 Nuxt3 路由系統的基礎配置
 
-Build the application for production:
+### Day 5 使用指令建立 Composables (11/11 完成)
 
-```bash
-# npm
-npm run build
+- 學習使用指令建立 Composables
+- 學習透過 Auto Imports 使用 Composables
 
-# pnpm
-pnpm build
+### Day 4 使用指令建立元件 (11/11 完成)
 
-# yarn
-yarn build
+- 學習使用指令建立元件
+- 學習透過 Auto Imports 使用元件
 
-# bun
-bun run build
-```
+### Day 3 使用指令建立 Layouts (11/11 完成)
 
-Locally preview production build:
+- 了解 Nuxt3 中的 Layouts 概念
+- 使用 Nuxt3 指令建立 Layout
+- 在頁面中使用指定的 Layout
 
-```bash
-# npm
-npm run preview
+### Day 2 Nuxt3 專案引入 CSS 樣式 (11/5 完成)
 
-# pnpm
-pnpm preview
+- 在 Nuxt3 中加入並使用 CSS 預處理器（SCSS）
+- 在 Nuxt3 中設定全域共用樣式
+- 在 Nuxt3 中設定全域共用變數
 
-# yarn
-yarn preview
+### Day 1 起手式 : 建立 Nuxt3 專案 (11/5 完成)
 
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- 建立 Nuxt3 專案
+- Nuxt 基礎指令
+- 新增頁面
