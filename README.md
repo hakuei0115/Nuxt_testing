@@ -9,12 +9,12 @@
 ## 如何使用
 
 - Clone 專案
-  - ``` git clone https://github.com/hakuei0115/Nuxt_testing ```
-  - ``` cd Nuxt_testing ```
+  - ``git clone https://github.com/hakuei0115/Nuxt_testing``
+  - ``cd Nuxt_testing``
 - 安裝依賴套件
-  -  ``` npm install ```
--  啟動本地開發伺服器
-   -  ``` num run dev ```
+  - ``npm install``
+- 啟動本地開發伺服器
+  - ``num run dev``
 
 ## 專案結構
 
@@ -31,6 +31,12 @@
 ```
 
 ## 主要學習內容
+
+### Day 9 $fetch 與 ofetch (11/14 完成)
+
+- 理解 Nuxt3 基於 ofetch 套件提供了 $fetch 方法
+- 學習在 Nuxt3 中使用 $fetch 進行 API 請求
+- 了解 $fetch 使用的注意事項
 
 ### Day 8 動態路由與 404 錯誤頁面處理 (11/13 完成)
 
