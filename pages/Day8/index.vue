@@ -8,9 +8,7 @@
     })
 
     // 在掛載時調用 API 取得房型列表
-    onMounted(() => {
-        getRoom()
-    })
+    getRoom()
 
     function goToRoomDetail(id) {
         router.push(`/Day8/${id}`)

@@ -32,6 +32,11 @@
 
 ## 主要學習內容
 
+### useFetch 與 useAsyncData (11/20 完成)
+
+- 學習如何使用 useFetch 與 useAsyncData，包括帶入參數和使用回傳參數的方法。
+- 理解這兩個方法都是基於 $fetch 進行封裝。
+
 ### Day 9 $fetch 與 ofetch (11/14 完成)
 
 - 理解 Nuxt3 基於 ofetch 套件提供了 $fetch 方法

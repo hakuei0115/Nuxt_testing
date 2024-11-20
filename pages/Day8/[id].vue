@@ -11,9 +11,7 @@
 
     const hotelId = route.params.id
 
-    onMounted(() => {
-        getRoomDetail(hotelId);
-    })
+    getRoomDetail(hotelId);
 </script>
 
 <template>
