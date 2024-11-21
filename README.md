@@ -32,7 +32,12 @@
 
 ## 主要學習內容
 
-### useFetch 與 useAsyncData (11/20 完成)
+### Day 11 Global head Settings 與 useHead  (11/21 完成)
+
+- 在 nuxt.config.ts 設定全域的 SEO 設定
+- 使用 useHead 組合函式設定單一頁面的SEO 設定
+
+### Day 10 useFetch 與 useAsyncData (11/20 完成)
 
 - 學習如何使用 useFetch 與 useAsyncData，包括帶入參數和使用回傳參數的方法。
 - 理解這兩個方法都是基於 $fetch 進行封裝。
