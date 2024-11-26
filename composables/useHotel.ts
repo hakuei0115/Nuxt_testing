@@ -54,16 +54,12 @@ export const useHotel = () => {
     
     const getRoom = async () => {
         try {
-            const { data, error } = await useAsyncData<RoomData>(
-                'getRoom',
-                () =>
-                    $fetch('https://nuxr3.zeabur.app/api/v1/rooms', {
-                        method: 'GET',
-                        headers: {
-                            'Content-Type': 'application/json',
-                        },
-                    }),
-            );
+            const { data, error } = useFetch<RoomData>('https://nuxr3.zeabur.app/api/v1/rooms', {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            });
 
             if (data.value) {
                 roomList.value = data.value.result;
@@ -77,20 +73,15 @@ export const useHotel = () => {
 
     const getRoomDetail = async (id: id) => {
         try {
-            const { data, error } = await useAsyncData<ApiRoomDetail>(
-                'getRoomDetail',
-                () =>
-                    $fetch<ApiRoomDetail>(`https://nuxr3.zeabur.app/api/v1/rooms/${id}`, {
-                        method: 'GET',
-                        headers: {
-                            'Content-Type': 'application/json',
-                        },
-                    })
-            );
+            const { data, error } = useFetch<ApiRoomDetail>(`https://nuxr3.zeabur.app/api/v1/rooms/${id}`, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            });
     
-            // data.value 是 ApiRoomDetail
             if (data.value) {
-                roomDetail.value = data.value.result; // 提取 result 作為 RoomDetail
+                roomDetail.value = data.value.result;
             } else {
                 console.error('While fetching, exception occurred:', error.value);
             }

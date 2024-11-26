@@ -25,7 +25,7 @@
                     <div class="room-header">
                         <h1 class="room-name">{{ roomDetail.name }}</h1>
                         <p class="room-description">
-                            roomDetail.description
+                            {{ roomDetail.description }}
                         </p>
                     </div>
 
