@@ -32,6 +32,11 @@
 
 ## 主要學習內容
 
+### Day 13 SEO meta Components (11/27 完成)
+
+- 學習如何使用 Nuxt3 的 SEO 元件來設定靜態與動態頁面 Meta 資訊
+- 理解如何傳入具響應性的資料來動態更新 SEO Meta 資訊
+
 ### Day 12 useSeoMeta 與 useServerSeoMeta (11/27 完成)
 
 - 使用 useSeoMeta 與 useServerSeoMeta Composable 設定 Meta 資訊
